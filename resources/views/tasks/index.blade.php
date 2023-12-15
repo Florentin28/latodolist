@@ -19,9 +19,9 @@
             <select onchange="window.location.href=this.value"
                 class="border p-2 rounded-md focus:outline-none focus:border-blue-500">
                 <option value="{{ route('setLocale', 'fr') }}" {{ session('locale') == 'fr' ? 'selected' : '' }}>🇫🇷
-                    Français</option>
+                    FRANCAIS</option>
                 <option value="{{ route('setLocale', 'en') }}" {{ session('locale') == 'en' ? 'selected' : '' }}>🇬🇧
-                    English</option>
+                    ENGLISH</option>
             </select>
 
 
